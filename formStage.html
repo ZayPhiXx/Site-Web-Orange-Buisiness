@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formStage.css"/>
+	<link rel="icon" href="src\favicon_OB.ico" type="ico">
+</head>
+<body>
+	<nav>
+		<a href="/index.html"><img src="src/logo.png" alt="logo" /></a>
+		<ul>
+		  <li><a href="/index.html">Accueil</a></li>
+		  <li><a href="/contexte.html">Contexte</a></li>
+		  <li><a href="/transEco.html">Transition écologique</a></li>
+		</ul>
+	</nav>
+    <div class="container">
+        <h1>Faire une demande de stage</h1>
+        <h2>Nous prenons de nombreux stagiaires chaque année, soyez l'un d'entre eux !</h2>
+        <form>
+			<label for="nom">Nom:</label>
+			<input type="text" id="nom" name="nom" required>
+	
+			<label for="prenom">Prénom:</label>
+			<input type="text" id="prenom" name="prenom" required>
+	
+			<label for="age">Âge:</label>
+			<input type="number" id="age" name="age" required>
+	
+			<label for="email">Adresse email:</label>
+			<input type="email" id="email" name="email" required>
+	
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="4"></textarea>
+	
+			<input class="bouton" type="submit" value="Envoyer">
+		</form>  
+    </div>
+
+	<footer>
+		<ul id="agencesFrance">
+		  Nos agences en France
+		  <li>Bagnolet - 80 Av. du Général de Gaulle, 93170</li>
+		  <li>Rennes - 14F Rue du Patis Tatelin, 35700</li>
+		  <li>Nantes - 13 Bd Martin Luther King, 44300</li>
+		  <li>Lyon - 13 Quai du Dr Gailleton, 69002</li>
+		  <li>Grenoble - 29 Rue Servan, 38000</li>
+		  <li>Biot - Rue des Amandiers, 06410</li>
+		</ul>	
+		<ul id="agencesMonde">
+		  Nos agences dans le monde
+		  <li>Suisse - Vy-d'Avenches 89, 1564 Domdidier</li>
+		  <li>Suisse - Rte de Pré-Bois 20, 1215 Meyrin, Suisse</li>
+		  <hr>
+		  Nos réseaux sociaux
+		  <li><a href="https://twitter.com/orangebusiness" class="linkFooter">Twitter</a></li>
+		  <li><a href="https://www.linkedin.com/company/orange-business/" class="linkFooter">LinkedIn</a></li>
+		  <li><a href="https://www.youtube.com/user/orangebusiness" class="linkFooter">Youtube</a></li>
+		</ul>
+		<ul class="map">
+			<img src="src/map.png" alt="map" id="map">
+		</ul>
+	  </footer>
+</body>
+</html>
